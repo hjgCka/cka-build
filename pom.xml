@@ -27,6 +27,7 @@
         <mybatis-spring-boot-starter.version>2.1.1</mybatis-spring-boot-starter.version>
         <mybatis-generator.version>1.4.0</mybatis-generator.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
+        <velocity.version>2.3</velocity.version>
 
         <demo-common-utils.version>1.0.0-SNAPSHOT</demo-common-utils.version>
     </properties>
@@ -55,6 +56,11 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>${velocity.version}</version>
             </dependency>
 
             <dependency>
